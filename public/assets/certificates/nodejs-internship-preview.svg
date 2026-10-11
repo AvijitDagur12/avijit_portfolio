@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1263 893" width="1263" height="893" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Heavy gaussian blur to obscure private details while preserving authentic certificate silhouette -->
+    <filter id="heavy-haze" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" />
+    </filter>
+    <filter id="soft-haze" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" />
+    </filter>
+    <linearGradient id="ribbon-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Certificate Background -->
+  <rect width="1263" height="893" fill="#f8fafc" />
+  <rect x="25" y="25" width="1213" height="843" fill="#ffffff" stroke="#38bdf8" stroke-width="2.5" />
+
+  <!-- Blurred Certificate Visuals -->
+  <g filter="url(#heavy-haze)">
+    <!-- Top-left geometric dark navy / blue polygon accents -->
+    <polygon points="25,25 410,25 210,240 25,180" fill="#0f172a" />
+    <polygon points="210,240 410,25 510,25 390,265" fill="#1e3a8a" />
+    <polygon points="390,265 510,25 890,25 460,270" fill="#2563eb" opacity="0.6" />
+    <polygon points="25,180 210,240 160,340 25,320" fill="#0284c7" opacity="0.4" />
+
+    <!-- Top-right Webguru infosystems brand logo silhouette -->
+    <g transform="translate(930, 70)">
+      <circle cx="150" cy="40" r="14" fill="#0284c7" />
+      <path d="M150,54 L150,75" stroke="#0284c7" stroke-width="4" />
+      <!-- Company text silhouettes -->
+      <rect x="30" y="90" width="220" height="24" rx="3" fill="#0f172a" />
+      <rect x="45" y="125" width="190" height="12" rx="2" fill="#64748b" />
+      <rect x="20" y="150" width="240" height="9" rx="2" fill="#94a3b8" />
+    </g>
+
+    <!-- Left margin vertical "INDUSTRIAL TRAINING" watermark accent -->
+    <g transform="translate(75, 480) rotate(-90)">
+      <rect x="0" y="0" width="340" height="30" rx="3" fill="#94a3b8" opacity="0.45" />
+    </g>
+
+    <!-- Main Certificate Title: "CERTIFICATE" -->
+    <g transform="translate(631, 315)">
+      <rect x="-240" y="-35" width="480" height="70" rx="4" fill="#0f172a" />
+    </g>
+
+    <!-- Ribbon Banner: "OF INTERNSHIP PROGRAMME" -->
+    <g transform="translate(631, 400)">
+      <polygon points="-280,-25 -250,0 -280,25 -250,25 250,25 280,25 250,0 280,-25" fill="url(#ribbon-grad)" />
+      <rect x="-210" y="-12" width="420" height="24" rx="3" fill="#ffffff" opacity="0.9" />
+    </g>
+
+    <!-- Candidate introductory line -->
+    <g transform="translate(631, 480)">
+      <rect x="-420" y="0" width="210" height="14" rx="2" fill="#334155" />
+      <!-- Avijit Dagur name highlight line -->
+      <rect x="-190" y="-8" width="380" height="26" rx="4" fill="#0f172a" />
+      <rect x="210" y="0" width="210" height="14" rx="2" fill="#334155" />
+    </g>
+
+    <!-- Course & University Line -->
+    <g transform="translate(631, 535)">
+      <rect x="-420" y="0" width="180" height="14" rx="2" fill="#475569" />
+      <rect x="-220" y="0" width="240" height="16" rx="2" fill="#1e293b" />
+      <rect x="40" y="0" width="90" height="14" rx="2" fill="#475569" />
+      <rect x="150" y="0" width="270" height="16" rx="2" fill="#1e293b" />
+    </g>
+
+    <!-- "has successfully completed Internship Programme in Node JS with Mongo DB" -->
+    <g transform="translate(631, 590)">
+      <rect x="-420" y="0" width="380" height="14" rx="2" fill="#475569" />
+      <!-- Node JS with Mongo DB badge highlight -->
+      <rect x="-20" y="-5" width="440" height="24" rx="3" fill="#0284c7" opacity="0.85" />
+    </g>
+
+    <!-- Webguru Infosystems dates line -->
+    <g transform="translate(631, 645)">
+      <rect x="-420" y="0" width="360" height="14" rx="2" fill="#475569" />
+      <rect x="-40" y="0" width="210" height="15" rx="2" fill="#1e293b" />
+      <rect x="190" y="0" width="230" height="15" rx="2" fill="#1e293b" />
+    </g>
+
+    <!-- Praise statement line -->
+    <g transform="translate(631, 695)">
+      <rect x="-420" y="0" width="840" height="12" rx="2" fill="#64748b" opacity="0.75" />
+    </g>
+
+    <!-- Success wish line -->
+    <g transform="translate(631, 740)">
+      <rect x="-420" y="0" width="320" height="12" rx="2" fill="#64748b" opacity="0.6" />
+    </g>
+
+    <!-- Bottom Left: Date Section & Serial Number -->
+    <g transform="translate(360, 810)">
+      <rect x="-130" y="-28" width="260" height="16" rx="2" fill="#0f172a" />
+      <line x1="-130" y1="0" x2="130" y2="0" stroke="#94a3b8" stroke-width="2" />
+      <rect x="-35" y="10" width="70" height="12" rx="2" fill="#64748b" />
+    </g>
+    <g transform="translate(70, 850)">
+      <rect x="0" y="0" width="240" height="12" rx="2" fill="#64748b" opacity="0.65" />
+    </g>
+
+    <!-- Bottom Right: Signature & Director Section -->
+    <g transform="translate(820, 800)">
+      <!-- Director Signature swoosh -->
+      <path d="M-60,-20 Q-20,-50 20,-15 Q60,10 90,-25" fill="none" stroke="#0284c7" stroke-width="5" />
+      <line x1="-120" y1="10" x2="120" y2="10" stroke="#94a3b8" stroke-width="2" />
+      <rect x="-55" y="20" width="110" height="16" rx="2" fill="#0f172a" />
+      <rect x="-40" y="44" width="80" height="12" rx="2" fill="#64748b" />
+    </g>
+
+    <!-- Bottom Right Corner: Geometric polygon accents -->
+    <polygon points="1238,868 960,868 1160,760 1238,868" fill="#0f172a" />
+    <polygon points="1238,868 1160,760 1238,720" fill="#0284c7" />
+  </g>
+</svg>
